@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* background-color: black; */
+}
+/* logo */
+.logo img{
+    width: 56px;
+    height: 58px;
+    /* border: 2px solid red; */
+}
+.logo{
+    position: relative;
+    left: 40px;
+}
+.nav{
+    display: flex;
+    border-bottom: 1px solid grey;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    /* border: 2px solid red; */
+}
+li a{
+    text-decoration: none;
+    padding: 8px 17px;
+    color: white;
+}
+li a:hover{
+    color: rgb(193, 187, 187);
+}
+/* adjusting navbar menu  */
+.menu{
+    position: relative;
+    left: 256px;
+}
+.bar{
+   position: relative;
+    left: 486px;
+}
+.bar span{
+    padding: 15px;
+    color: white;
+}
+.bar span:hover{
+    cursor: pointer;
+}
+#home{
+    display: flex;
+    min-height: 100vh;
+    color: white;
+    background: url(../images/home-img.jpeg) no-repeat center center/cover;
+}
+.content{
+    position: relative;
+    left: 77px;
+    top:100px ;
+}
+.content h1{
+    
+    font-size: 56px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.content p{
+    position: relative;
+    top: 10px;
+}
+.content button{
+    font-size: 15px;
+    position: relative;
+    top: 50px;
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(241 209 162 / 83%);
+}
+.content button:hover{
+    cursor: pointer;
+}
+button:hover{
+    color: rgb(223, 220, 220);
+}
+
