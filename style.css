@@ -54,9 +54,9 @@ li a:hover{
 }
 #home{
     display: flex;
-/*     min-height: 100vh; */
-    color: white;
     min-height: 100vh;
+    color: white;
+/*     min-height: 100vh; */
     display: flex;
     align-items: center;
     background:url(../images/home-img.jpeg) no-repeat;
